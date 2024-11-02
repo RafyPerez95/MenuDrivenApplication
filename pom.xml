@@ -24,7 +24,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
           <configuration>
-          <source>S{iava.version}</source>
+          <source>${iava.version}</source>
 			<target>${java.version}</target>           
           </configuration>
         </plugin>
