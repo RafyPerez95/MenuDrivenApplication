@@ -114,4 +114,9 @@ public class Project {
     
     return result;
   }
+
+  public void setActualHours(Object actualHours2) {
+    // TODO Auto-generated method stub
+    
+  }
 }
