@@ -35,4 +35,13 @@ by using the correct imports for the code for example " import java.math.BigDeci
 in the application.
 
 Installation:
-Clone Project:
+Clone Project: https://github.com/RafyPerez95/MenuDrivenApplication.git
+
+Project Directory: cd mysql_java
+
+Contributions:
+* All contributions are welcomed!
+
+Contect Info:
+Project Link: https://github.com/RafyPerez95/MenuDrivenApplication.git
+Email: Rafantperez1@gmail.com
