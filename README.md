@@ -42,6 +42,51 @@ Project Directory: cd mysql_java
 Contributions:
 * All contributions are welcomed!
 
+Favorite Feature:
+* My personal favorite feature for the application is also allowing there to be errors if a user selected an invalid
+selection and being able to go back and choose a correct one.
+
+private void processUserSelections() {
+    boolean done = false;
+
+    while(!done) {
+      try {
+        int selection = getUserSelection();
+
+        switch(selection) {
+          case -1:
+            done = exitMenu();
+            break;
+            
+          case 1:
+            createProject();
+            break;
+            
+          case 2:
+            listProjects();
+            break;
+            
+          case 3: 
+            selectProject ();
+            break;
+            
+          case 4:
+            updateProjectDetails();
+            break;
+            
+          case 5:
+            deleteProject();
+            break;
+
+          default:
+            System.out.println("\n" + selection + " is not a valid selection. Try again.");
+           
+        }
+      }
+      catch(Exception e) {
+        System.out.println("\nError: " + e + " Try again.");
+      
+
 Contect Info:
 Project Link: https://github.com/RafyPerez95/MenuDrivenApplication.git
 Email: Rafantperez1@gmail.com
